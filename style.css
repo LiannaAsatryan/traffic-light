@@ -1,0 +1,67 @@
+.traffic-light {
+  width: 150px;
+  height: 450px;
+  background-color: #333;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin-inline: auto;
+}
+.traffic-light .timer {
+  width: 150px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.traffic-light #redL {
+  background-color: #660000;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+.traffic-light #yellowL {
+  background-color: #333300;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+.traffic-light #greenL {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-top: 20px;
+  text-align: center;
+}
+.controls #startBtn {
+  min-width: 100px;
+  min-height: 30px;
+  border-color: forestgreen;
+  cursor: pointer;
+}
+.controls #stopBtn {
+  cursor: pointer;
+  min-width: 100px;
+  min-height: 30px;
+  border-color: crimson;
+}
+
+/*# sourceMappingURL=style.css.map */
